@@ -6,3 +6,7 @@ PHP_VERSION=$1
 sudo apt-get install php-apcu -qq
 
 sudo service php${PHP_VERSION}-fpm restart
+
+# composer install
+cd /vagrant
+composer install -n
