@@ -42,6 +42,12 @@ git clone git@bitbucket.org:golfnowinternational/to-do-symfony-application.git t
 ```
 
 ##### Step 3
+Start the VM.
+```sh
+vagrant up
+```
+
+##### Step 4
 Visit [http://todo.dev/app_dev.php](http://todo.dev/app_dev.php)
 
 ### Database
