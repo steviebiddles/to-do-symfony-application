@@ -1,5 +1,7 @@
 ## todo.dev
-Todo application built with PHP 7.1 and Symfony 3.3
+Todo application built with PHP 7.1, MariaDB and Symfony PHP Framework
+
+_Assumptions: Developing on a Mac with access to the repository on bitbucket.org_
 
 ### Dependencies
 
@@ -7,10 +9,17 @@ Todo application built with PHP 7.1 and Symfony 3.3
 * [Vitualbox](https://www.virtualbox.org/wiki/Downloads)
 * [Vagrant 1.5.0+](https://www.vagrantup.com/downloads.html)
 
-Check your version of vagrant:
+### Instructions
+
+##### Step 1
+Install the dependencies listed above. Verify vagrant version installed using command below.
+
 ```sh
 vagrant -v
 ```
+
+##### Step 2
+Install the plugins listed below. _* might need to use sudo_
 
 ##### Vagrant Plugins
 [Vagrant Host Manager](https://github.com/devopsgroup-io/vagrant-hostmanager)
@@ -27,13 +36,6 @@ vagrant plugin install vagrant-auto_network
 ```sh
 vagrant plugin install vagrant-cachier
 ```
-
-### Instructions
-
-_Assumptions: Developing on a Mac with ssh keys setup and access to repository on bitbucket.org_
-
-##### Step 1
-Install the dependencies.
 
 ##### Step 2
 Clone the repository to your local machine.
