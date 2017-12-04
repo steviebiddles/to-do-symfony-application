@@ -15,6 +15,9 @@ sudo apt-get install php-apcu -qq
 
 sudo service php${PHP_VERSION}-fpm restart
 
+# composer config
+composer config --global process-timeout 2000
+
 # composer install
 cd /vagrant
 composer install -n

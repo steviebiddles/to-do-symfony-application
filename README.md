@@ -6,8 +6,8 @@ _Assumptions: Developing on a Mac with access to the repository on bitbucket.org
 ### Dependencies
 
 * [IDE - PhpStorm Early Access Program](https://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program) 
-* [Vitualbox](https://www.virtualbox.org/wiki/Downloads)
-* [Vagrant 1.5.0+](https://www.vagrantup.com/downloads.html)
+* [Vitualbox 5.1](https://www.virtualbox.org/wiki/Downloads)
+* [Vagrant 1.9.8](https://www.vagrantup.com/downloads.html)
 
 ### Instructions
 
@@ -38,10 +38,11 @@ vagrant plugin install vagrant-cachier
 ```
 
 ##### Step 2
-Clone the repository to your local machine.
+Clone the repository to your local machine. _Windows user can install [Git BASH](https://git-for-windows.github.io/)_
 ```sh
-git clone git@bitbucket.org:golfnowinternational/to-do-symfony-application.git todo.dev
+git clone https://github.com/steviebiddles/to-do-symfony-application todo.dev
 ```
+** Recommend creating a directory called ```C:\Sites``` and clone into todo.dev e.g. ```C:\Sites\todo.dev```
 
 ##### Step 3
 Start the VM.
