@@ -13,7 +13,7 @@ github_pat          = ""
 
 # Server Configuration
 
-hostname        = "todo.dev"
+hostname        = "todo.loc"
 
 # Set a local private network IP address.
 # See http://en.wikipedia.org/wiki/Private_network for explanation

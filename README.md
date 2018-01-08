@@ -1,4 +1,4 @@
-## todo.dev
+## todo.loc
 Todo application built with PHP 7.1, MariaDB and Symfony PHP Framework
 
 _Assumptions: Developing on a Mac with access to the repository on bitbucket.org_
@@ -40,9 +40,9 @@ vagrant plugin install vagrant-cachier
 ##### Step 2
 Clone the repository to your local machine. _Windows user can install [Git BASH](https://git-for-windows.github.io/)_
 ```sh
-git clone https://github.com/steviebiddles/to-do-symfony-application todo.dev
+git clone https://github.com/steviebiddles/to-do-symfony-application todo.loc
 ```
-** Recommend creating a directory called ```C:\Sites``` and clone into todo.dev e.g. ```C:\Sites\todo.dev```
+** Recommend creating a directory called ```C:\Sites``` and clone into todo.loc e.g. ```C:\Sites\todo.loc```
 
 ##### Step 3
 Start the VM.
@@ -51,9 +51,9 @@ vagrant up
 ```
 
 ##### Step 4
-Visit [http://todo.dev/app_dev.php](http://todo.dev/app_dev.php)
+Visit [http://todo.loc/app_dev.php](http://todo.loc/app_dev.php)
 
 ### Database
-* Host: *todo.dev*
+* Host: *todo.loc*
 * Username: *root*
 * Password: *root*
